@@ -24,3 +24,15 @@ for i in 1:1000
     end
     println(result)
 end
+
+x = 0
+
+println("sum of all the multiples of 3 or 5")
+
+for i in 1:999
+    if i % 3 == 0 || i % 5 == 0
+        global x = x + i
+    end
+end
+
+println(x)
