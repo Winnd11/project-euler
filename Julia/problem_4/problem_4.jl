@@ -6,6 +6,8 @@
 
 # 906609
 
+# i still working in this
+
 for i in 90:10000
     x = string(i)
     if reverse(x) == x
