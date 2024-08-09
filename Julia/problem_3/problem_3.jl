@@ -4,13 +4,9 @@
 
 function primeFactor(x)
     for i in 1:x
-
         result = x % i
-
         if result == 0
-
             x = x / i
-
             println(i)
         end
     end
