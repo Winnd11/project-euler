@@ -34,3 +34,21 @@ for i in 1000:10000
     end
 end
 
+# return
+# 9009 91
+# 9009 99
+
+for i in 100000:1000000
+    string_i = string(i)
+    if reverse(string_i) == string_i
+        for n in 90:100
+            if i % n == 0 && i / n < 1000
+                println(i)
+            end
+        end
+    end
+end
+
+# return 
+# 906609 913
+# 906609 993
