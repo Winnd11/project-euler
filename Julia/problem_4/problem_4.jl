@@ -6,20 +6,21 @@
 
 # 906609
 
-# i still working in this
+# my first solution
+# i know it's ugly
 
-for i in 90:10000
-    x = string(i)
-    if reverse(x) == x
-        println(i)
+for i in 1000:10000
+    iString = string(i)
+    if reverse(iString) == iString
+        for n in 90:99
+            result = i % n
+            result2 = i / n
+            if result == 0
+                if result2 <= 100
+                println(i, " ", n)
+                end
+            end
+        end
     end
 end
 
-
-# x = 9009
-# for i in 90:100
-#     result = x % i
-#     if result == 0
-#         println(i)
-#     end
-# end
