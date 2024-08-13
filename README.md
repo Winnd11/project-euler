@@ -7,3 +7,4 @@ Project Euler is a series of challenging mathematical/computer programming probl
 | <a href="Julia/problem_1/problem_1.jl"> P02  | -- |
 | <a href="Julia/problem_3/problem_3.jl"> P03  | -- |
 | <a href="Julia/problem_4/problem_4.jl"> P04 | -- |
+| <a href="Julia/problem_5/problem_5.jl"> P05 | -- |
