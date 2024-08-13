@@ -2,8 +2,6 @@
 # https://projecteuler.net/problem=6
 # ID 6
 
-# abs2(10)
-
 sum = 0
 sum_2 = 0
 
