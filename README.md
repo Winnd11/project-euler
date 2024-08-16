@@ -13,3 +13,8 @@ Project Euler is a series of challenging mathematical/computer programming probl
 | -- | -- |
 | -- | -- |
 | <a href="Julia/problem_10/problem_10.jl"> P10 | -- |
+| -- | -- |
+| -- | -- |
+| -- | -- |
+| -- | -- |
+| -- | <a href="Wolfram Mathematica/problem_15/problem_15.wl"> P15 |
