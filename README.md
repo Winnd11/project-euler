@@ -41,6 +41,8 @@ wolframscript
 
 The first time you will need to enter your email and password
 
+
+
 After that, if everything goes well, this will appear
 
 ```
@@ -48,41 +50,36 @@ Wolfram Language 14.1.0 Engine for Microsoft Windows (64-bit)
 Copyright 1988-2024 Wolfram Research, Inc.
 ```
 
-After that you can open the solution code and run it in the terminal
+After that you can copy the solution code and run it in the terminal
 
 ```
-wolframscript -file problem_1.wls
-
-233168
-```
-***NOTE: Use Print to produce an output from code in a file. The value of the last expression in a file is not returned by default, as in the notebook interface.***
-
-Example:
-
-```
-// Original problem_1.wl 
-Total[DeleteDuplicates[Join[Times[3, Range[333]], Times[5, Range[199]]]]] // will return an empty value
-
-// After correcting
-Print[Total[DeleteDuplicates[Join[Times[3, Range[333]], Times[5, Range[199]]]]]]
-```
-
-However, you can copy the code and run it in the terminal
-
-```
-C:\>wolframscript
-Wolfram Language 14.1.0 Engine for Microsoft Windows (64-bit)
-Copyright 1988-2024 Wolfram Research, Inc.
-
 In[1]:= Total[DeleteDuplicates[Join[Times[3, Range[333]], Times[5, Range[199]]]]]
 
 Out[1]= 233168
 ```
 
-Or you can open the wolframscript.exe
+Or you can open the code directly from the terminal
+
 ```
-C:\Program Files\Wolfram Research\WolframScript\wolframscript.exe
+wolframscript -file problem_1.wl
+
+233168
 ```
+
+***NOTE: Use Print to produce an output from code in a file. The value of the last expression in a file is not returned by default, as in the notebook interface.***
+
+Example:
+
+```
+- Original problem_1.wl
+- will return a empty value
+Total[DeleteDuplicates[Join[Times[3, Range[333]], Times[5, Range[199]]]]]
+
+- After correcting
+Print[Total[DeleteDuplicates[Join[Times[3, Range[333]], Times[5, Range[199]]]]]]
+```
+
+***For more information see the oficial <a href="https://reference.wolfram.com/language/workflow/RunWolframLanguageCodeFromTheCommandLine.html"> website</a>***
 
 ### Paths
 
