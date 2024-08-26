@@ -23,3 +23,8 @@ Project Euler is a series of challenging mathematical/computer programming probl
 | -- | -- |
 | -- | -- |
 | -- | <a href="Wolfram Mathematica/problem_20/problem_20.wl"> P20 |
+| -- | -- |
+| -- | -- |
+| -- | -- |
+| -- | -- |
+| -- | <a href="Wolfram Mathematica/problem_25/problem_25.wl"> P25 |
