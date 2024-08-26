@@ -70,12 +70,12 @@ wolframscript -file problem_1.wl
 
 Example:
 
-```
-- Original problem_1.wl
-- will return a empty value
+```mathematica
+(* Original problem_1.wl *)
+(* will return a empty value *)
 Total[DeleteDuplicates[Join[Times[3, Range[333]], Times[5, Range[199]]]]]
 
-- After correcting
+(* After correcting *)
 Print[Total[DeleteDuplicates[Join[Times[3, Range[333]], Times[5, Range[199]]]]]]
 ```
 
