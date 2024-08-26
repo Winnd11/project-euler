@@ -10,7 +10,7 @@ If you wanted to run Wolfram solutions, follow the instructions:
 1. Clone this repo
 
 ```
-https://github.com/Winnd11/Project-Euler.git
+git clone https://github.com/Winnd11/Project-Euler.git
 ```
 
 Just open a solution you want to run.
