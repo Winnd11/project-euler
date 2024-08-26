@@ -1,6 +1,62 @@
 # Project-Euler
 Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.
 
+## Getting Started
+### Installation
+If you want to run these solutions I recommend you follow the following steps:
+
+## Method 1: Using `Wolfram|One`
+
+1. Clone this repo
+
+```
+https://github.com/Winnd11/Project-Euler.git
+```
+
+Just open a solution you want to run.
+
+## Method 2: Using `Wolfram Language Notebook Extension In VSCode`
+
+1. Install the <a href="https://www.wolfram.com/engine/"> wolfram engine</a>
+
+2. Instal the <a href="https://marketplace.visualstudio.com/items?itemName=njpipeorgan.wolfram-language-notebook">Wolfram-Language-Notebook</a> extension in VSCode
+
+***NOTE: This extension is not official***
+
+3. Open a solution and run it
+
+## Method 3: Using `Wolfram Language For Jupyter`
+
+1. Follow the steps in this <a href="https://github.com/WolframResearch/WolframLanguageForJupyter"> repo
+
+## Method 4: Using `Terminal`
+
+You can run the solutions in the terminal itself, but for this you need to have the Wolfram engine installed.
+
+1. Run this command in terminal
+
+```
+wolframscript
+```
+
+The first time you will need to enter your email and password
+
+After that, if everything goes well, this will appear
+
+```
+Wolfram Language 14.1.0 Engine for Microsoft Windows (64-bit)
+Copyright 1988-2024 Wolfram Research, Inc.
+```
+
+After that you can copy the solution code and run it in the terminal
+
+```
+In[1]:= Total[DeleteDuplicates[Join[Times[3, Range[333]], Times[5, Range[199]]]]]
+
+Out[1]= 233168
+```
+### Paths
+
 | Julia  | Mathematica |
 | ------------- | ------------- |
 | <a href="Julia/problem_1/problem_1.jl"> P01 | <a href="Wolfram Mathematica/problem_1/problem_1.wl">  P01 |
