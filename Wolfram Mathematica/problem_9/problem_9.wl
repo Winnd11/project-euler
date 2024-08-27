@@ -3,4 +3,7 @@
 (* ID 9 *)
 
 (* still work in this *)
-functionPythagorean[n_, m_, o_] := (If[Plus[Power[n, 2], Power[m, 2]] == Power[o, 2], Return[true], Return[false]]);
+
+functionPythagorean[a_, b_, c_] := (If[Plus[Power[a, 2], Power[b, 2]] == Power[c, 2], Return[true], Return[false]]);
+
+functionPythagorean[3, 4, 5]
