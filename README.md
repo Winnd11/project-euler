@@ -93,7 +93,7 @@ Print[Total[DeleteDuplicates[Join[Times[3, Range[333]], Times[5, Range[199]]]]]]
 | <a href="Julia/problem_6/problem_6.jl"> P06 | <a href="Wolfram Mathematica/problem_6/problem_6.wl"> P06 |
 | <a href="Julia/problem_7/problem_7.jl"> P07 | <a href="Wolfram Mathematica/problem_7/problem_7.wl"> P07 |
 | -- | <a href="Wolfram Mathematica/problem_8/problem_8.wl"> P08 |
-| -- | -- |
+| -- | <a href="Wolfram Mathematica/problem_9/problem_9.wl"> P09 |
 | <a href="Julia/problem_10/problem_10.jl"> P10 | <a href="Wolfram Mathematica/problem_10/problem_10.wl"> P10 |
 | -- | -- |
 | -- | <a href="Wolfram Mathematica/problem_12/problem_12.wl"> P12 |
