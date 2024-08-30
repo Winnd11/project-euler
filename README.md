@@ -110,3 +110,6 @@ Print[Total[DeleteDuplicates[Join[Times[3, Range[333]], Times[5, Range[199]]]]]]
 | -- | -- |
 | -- | -- |
 | -- | <a href="Wolfram Mathematica/problem_25/problem_25.wl"> P25 |
+
+## MIT License
+This project is licensed under MIT license, read more at <span><a href="https://docs.github.com/pt/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository">docs.github</span>
