@@ -1,0 +1,88 @@
+{
+ "cells": [
+  {
+   "kind": 2,
+   "value": "n = {}\r\no = Association[{1 -> \"one\", 2 -> \"two\", 3 -> \"three\", 4 -> \"four\", 5 -> \"five\", 6 -> \"six\", 7 -> \"seven\", 8 -> \"eight\", 9 -> \"nine\", 10 -> \"ten\", 11 -> \"eleven\", 12 -> \"twelve\", 13 -> \"thirteen\", 14 -> \"fourteen\", 15 -> \"fifteen\", 16 -> \"sixteen\", 17 -> \"seventeen\", 18 -> \"eighteen\", 19 -> \"nineteen\"}]\r\nt = Association[{20 -> \"twenty\", 30 -> \"thirty\", 40 -> \"forty\", 50 -> \"fifty\", 60 -> \"sixty\", 70 -> \"seventy\", 80 -> \"eighty\", 90 -> \"ninety\"}]\r\nFor[i = 1, i <= 19, i++, AppendTo[n, StringLength[o[i]]]]\r\nTotal[n]",
+   "languageId": "wolfram",
+   "outputs": [
+    {
+     "items": [
+      {
+       "data": "<div class=\"wexpr\"><wrow><w></w><wb>{</wb><wb>}</wb></wrow></div>",
+       "mime": "x-application/wolfram-language-html"
+      },
+      {
+       "data": "{}",
+       "mime": "text/plain"
+      }
+     ],
+     "id": "10bc73c1-7795-4c3c-b30a-30a272eaeee8",
+     "metadata": {
+      "cellLabel": "Out[254]= ",
+      "isBoxData": false
+     }
+    },
+    {
+     "items": [
+      {
+       "data": "<div class=\"wexpr\"><wrow><w></w><wb></wb><wrow><w></w><wrow><w></w><w>1</w><w class=\"symbol\"></w><w>one</w></wrow><w>,</w><wrow><w></w><w>2</w><w class=\"symbol\"></w><w>two</w></wrow><w>,</w><wrow><w></w><w>3</w><w class=\"symbol\"></w><w>three</w></wrow><w>,</w><wrow><w></w><w>4</w><w class=\"symbol\"></w><w>four</w></wrow><w>,</w><wrow><w></w><w>5</w><w class=\"symbol\"></w><w>five</w></wrow><w>,</w><wrow><w></w><w>6</w><w class=\"symbol\"></w><w>six</w></wrow><w>,</w><wrow><w></w><w>7</w><w class=\"symbol\"></w><w>seven</w></wrow><w>,</w><wrow><w></w><w>8</w><w class=\"symbol\"></w><w>eight</w></wrow><w>,</w><wrow><w></w><w>9</w><w class=\"symbol\"></w><w>nine</w></wrow><w>,</w><wrow><w></w><w>10</w><w class=\"symbol\"></w><w>ten</w></wrow><w>,</w><wrow><w></w><w>11</w><w class=\"symbol\"></w><w>eleven</w></wrow><w>,</w><wrow><w></w><w>12</w><w class=\"symbol\"></w><w>twelve</w></wrow><w>,</w><wrow><w></w><w>13</w><w class=\"symbol\"></w><w>thirteen</w></wrow><w>,</w><wrow><w></w><w>14</w><w class=\"symbol\"></w><w>fourteen</w></wrow><w>,</w><wrow><w></w><w>15</w><w class=\"symbol\"></w><w>fifteen</w></wrow><w>,</w><wrow><w></w><w>16</w><w class=\"symbol\"></w><w>sixteen</w></wrow><w>,</w><wrow><w></w><w>17</w><w class=\"symbol\"></w><w>seventeen</w></wrow><w>,</w><wrow><w></w><w>18</w><w class=\"symbol\"></w><w>eighteen</w></wrow><w>,</w><wrow><w></w><w>19</w><w class=\"symbol\"></w><w>nineteen</w></wrow></wrow><wb></wb></wrow></div>",
+       "mime": "x-application/wolfram-language-html"
+      },
+      {
+       "data": "Association[1 -> \"one\", 2 -> \"two\", 3 -> \"three\", 4 -> \"four\", 5 -> \"five\", 6 -> \"six\", 7 -> \"seven\", 8 -> \"eight\", 9 -> \"nine\", 10 -> \"ten\", 11 -> \"eleven\", 12 -> \"twelve\", 13 -> \"thirteen\", 14 -> \"fourteen\", 15 -> \"fifteen\", 16 -> \"sixteen\", 17 -> \"seventeen\", 18 -> \"eighteen\", 19 -> \"nineteen\"]",
+       "mime": "text/plain"
+      }
+     ],
+     "id": "4ef75370-1f59-4207-aa67-4a0b385a7440",
+     "metadata": {
+      "cellLabel": "Out[255]= ",
+      "isBoxData": false
+     }
+    },
+    {
+     "items": [
+      {
+       "data": "<div class=\"wexpr\"><wrow><w></w><wb></wb><wrow><w></w><wrow><w></w><w>20</w><w class=\"symbol\"></w><w>twenty</w></wrow><w>,</w><wrow><w></w><w>30</w><w class=\"symbol\"></w><w>thirty</w></wrow><w>,</w><wrow><w></w><w>40</w><w class=\"symbol\"></w><w>forty</w></wrow><w>,</w><wrow><w></w><w>50</w><w class=\"symbol\"></w><w>fifty</w></wrow><w>,</w><wrow><w></w><w>60</w><w class=\"symbol\"></w><w>sixty</w></wrow><w>,</w><wrow><w></w><w>70</w><w class=\"symbol\"></w><w>seventy</w></wrow><w>,</w><wrow><w></w><w>80</w><w class=\"symbol\"></w><w>eighty</w></wrow><w>,</w><wrow><w></w><w>90</w><w class=\"symbol\"></w><w>ninety</w></wrow></wrow><wb></wb></wrow></div>",
+       "mime": "x-application/wolfram-language-html"
+      },
+      {
+       "data": "Association[20 -> \"twenty\", 30 -> \"thirty\", 40 -> \"forty\", 50 -> \"fifty\", 60 -> \"sixty\", 70 -> \"seventy\", 80 -> \"eighty\", 90 -> \"ninety\"]",
+       "mime": "text/plain"
+      }
+     ],
+     "id": "1ba10115-ebb8-4083-9680-e73abd183be2",
+     "metadata": {
+      "cellLabel": "Out[256]= ",
+      "isBoxData": false
+     }
+    },
+    {
+     "items": [
+      {
+       "data": "<div class=\"wexpr\"><w>106</w></div>",
+       "mime": "x-application/wolfram-language-html"
+      },
+      {
+       "data": "106",
+       "mime": "text/plain"
+      }
+     ],
+     "id": "4a663efd-379c-42a3-a408-801f5834f947",
+     "metadata": {
+      "cellLabel": "Out[258]= ",
+      "isBoxData": false
+     }
+    }
+   ],
+   "metadata": {},
+   "executionSummary": {
+    "timing": {
+     "startTime": 1726415346283,
+     "endTime": 1726415347073
+    },
+    "executionOrder": 254,
+    "success": true
+   }
+  }
+ ]
+}
