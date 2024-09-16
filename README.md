@@ -105,7 +105,7 @@ Print[Total[DeleteDuplicates[Join[Times[3, Range[333]], Times[5, Range[199]]]]]]
 | -- | -- |
 | -- | <a href="Wolfram Mathematica/problem_19/problem_19.wl"> P19 |
 | -- | <a href="Wolfram Mathematica/problem_20/problem_20.wl"> P20 |
-| -- | -- |
+| -- | <a href="Wolfram Mathematica/problem_21/problem_21.wl"> P21 |
 | -- | -- |
 | -- | -- |
 | -- | -- |
