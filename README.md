@@ -86,7 +86,7 @@ Print[Total[DeleteDuplicates[Join[Times[3, Range[333]], Times[5, Range[199]]]]]]
 | Java | Julia  | Mathematica |
 | ------------- | ------------- | ------------- |
 | <a href="Java/problem_1/problem_1.java"> P01 | <a href="Julia/problem_1/problem_1.jl"> P01 | <a href="Wolfram Mathematica/problem_1/problem_1.wl">  P01 |
-| -- | <a href="Julia/problem_1/problem_1.jl"> P02  | -- |
+| <a href="Java/problem_2/problem_2.java"> P02 | <a href="Julia/problem_1/problem_1.jl"> P02  | -- |
 | -- | <a href="Julia/problem_3/problem_3.jl"> P03  | <a href="Wolfram Mathematica/problem_3"> P03 |
 | -- | <a href="Julia/problem_4/problem_4.jl"> P04 | <a href="Wolfram Mathematica/problem_4/problem_4.wl"> P04 |
 | -- | <a href="Julia/problem_5/problem_5.jl"> P05 | <a href="Wolfram Mathematica/problem_5/problem_5.wl"> P05 |
